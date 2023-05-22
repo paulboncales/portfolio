@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Portfolio</title>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ 
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="p1.jpg" alt="Paul Boncales" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Paul Boncales">Paul</h1>
+          <h1 style="color: #ffcc00;" class="name">Boncales</h1>
+        
+
+          <p class="title">WEB DEVELOPER</p>
+          <br>
+          <p class="title">IT SUPPORT</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="https://mail.google.com/" class="contact-link">paulboncales1@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">09384822525</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">August 21, 2000</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Sta. Mria Nabunturan Davao De Oro</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://web.facebook.com/boncales.paulii" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2Fpaulinginlove_1%3Figshid%3DZGUzMzM3NWJiOQ%253D%253D%26fbclid%3DIwAR3THqtjADhYR1HJ79bXbDJUOfTq3Z63TG1k8m1YtLyHKB3x5fOMjUBJdBk&h=AT3J9TtKroXpk_I5FltOeXhY_YlG0u_MBab9iTFEVKNkHens2pXxIvLD-XMW01HpFg8gdQY1r8LnkXMUNWhveqCYakXPtkA8jo0sxzsp5PsAGrqZidHwyU-sDxT1iScvV8WDRA" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>HOME</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>RESUME</button>
+          </li>
+
+
+         
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>OJT</button>
+          </li>
+
+          
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>CERTIFICATES</button>
+          </li>
+
+         
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>CONTACT</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="home">
+
+        <header>
+          <h2 class="h2 article-title">HOME</h2>
+        </header>
+
+        
+        <section style="text-align: justify;" class="about-text">
+
+         <video width="100%" height="360" controls>
+            <source src="jmc.mp4" type="video/mp4">
+          </video>
+          <p>
+            
+            I am Paul Boncales, I have a strong passion for computer programming and technology. 
+            I want to become a successful software developer and contribute to the development 
+            of innovative technology that can make people's lives easier.
+            I possess excellent coding skills in languages such as HTML, CSS, and PHP. 
+            I am also proficient in database management and have a strong foundation in software engineering principles.
+            I want to surround myself with like-minded individuals who are passionate about technology 
+            and can help me grow my skills further. I also want to be mentored by experienced software 
+            developers who can guide me and help me achieve my career goals.
+          </p>
+
+          <p style="text-align: justify;">
+            My ultimate goal is to become a senior software developer and work for a leading technology company. 
+            I aspire to contribute to the development of groundbreaking software applications that can make a positive impact on people's lives.
+            Some of the companies that I would like to work for include Microsoft, Google, and Amazon. 
+            I believe that these companies are at the forefront of technology innovation and can provide me 
+            with the platform to grow my skills and achieve my career goals.
+            As a software developer, I want to work on developing innovative software 
+            applications that can solve real-world problems. I want to work on a job that can challenge me 
+            and help me grow my skills further.
+          </p>
+          <p>My ultimate goal is to become a senior software developer and work for a leading technology company. 
+            I aspire to contribute to the development of groundbreaking software applications that can make 
+            a positive impact on people's lives. Some of the companies that I would like to work for include 
+            Microsoft, Google, and Amazon. I believe that these companies are at the forefront of technology 
+            innovation and can provide me with the platform to grow my skills and achieve my career goals. 
+            As a software developer, I want to work on developing innovative software applications that can 
+            solve real-world problems. I want to work on a job that can challenge me and help me grow my skills further.
+    
+            <h2>WHO AM I AND WHO I WANT TO BECOME WITH?</h2>
+            <P>
+              I am an ambitious individual who values personal growth, creativity, and making a positive 
+              impact on others' lives. I am passionate about continuous learning and exploring new opportunities 
+              to expand my horizons. I want to become a confident and influential leader in my chosen field, 
+              using my skills and knowledge to drive meaningful change and inspire others.
+            </P>
+            <h2>WHAT GOALS DO I WANT TO REACH?</h2>
+            <p>
+              In the short term, I aim to enhance my skills through continuous education and professional 
+              development opportunities. I want to take on challenging projects that allow me 
+              to apply my knowledge and contribute to solving complex problems. In the long term, 
+              I strive to achieve leadership positions where I can drive strategic initiatives, 
+              make a positive impact on my organization, and empower others to reach their full potential.
+            </p>
+            <h2>WHICH COMPANY TO I WANT TO WORK FOR?</h2>
+            <p>
+              I am drawn to companies that are known for their commitment to innovation, social responsibility, 
+              and fostering a positive work environment. I am particularly interested in organizations that 
+              prioritize sustainability, diversity and inclusion, and have a strong emphasis on employee growth 
+              and well-being. Some examples of companies that align with my values include Google, Tesla, 
+              Patagonia, and Airbnb.
+            </p>
+            <h2>WHAT TYPE OF JOB DO I WANT TO DO?</h2>
+            <p>
+              I envision myself working in a dynamic and collaborative role that combines my passion for 
+              problem-solving, creativity, and leadership. Ideally, I would love to be involved in strategic 
+              planning, project management, and driving innovative initiatives within an organization. Whether 
+              it's in the technology, renewable energy, or sustainable fashion industry, I am eager to contribute 
+              my skills and make a positive impact through my work.
+            </p>
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">WHAT I'M DOING AS AN IT STUDENT</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">WEB DESIGN</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">WEB DEVELOPEMENT</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">IT SUPPORT</h4>
+
+                <p class="service-item-text">
+                  Good at handling of any types of computer problems.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">PHOTOGRAPHY</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </section>
+
+        </div>
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">RESUME</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">EDUCATION</h3>
+          </div>  
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Jose Maria College Foundation, Inc.</h4>
+
+              <span>2019 — 2023</span>
+
+              <p style="text-align: justify;" class="timeline-text">
+                Jose Maria College stands as an esteemed bastion of education, revered for its unwavering commitment to 
+                academic excellence, character development, and the provision of a comprehensive education. With a 
+                faculty of passionate educators, adorned with state-of-the-art facilities that inspire awe, and a 
+                meticulously crafted curriculum, the college reverently nurtures individuals, molding them into 
+                distinguished scholars and aspiring leaders who will leave an indelible mark on the world.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Nabunturan National Comprehensive Highschool</h4>
+
+              <span>2013 — 2019</span>
+
+              <p style="text-align: justify;" class="timeline-text">
+                Nabunturan National Comprehensive High School is a highly regarded educational establishment that 
+                prioritizes academic excellence, character formation, and a well-rounded education. With a devoted 
+                faculty, modern facilities, and a comprehensive curriculum, the school fosters the development of 
+                students into capable individuals and aspiring leaders.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sta. Maria Elementary School</h4>
+
+              <span>2006 — 2013</span>
+
+              <p style="text-align: justify;" class="timeline-text">
+                Sta. Maria Elementary School is a prestigious institution focused on academic excellence, character development, 
+                and holistic education. With dedicated faculty, modern facilities, and a comprehensive curriculum, it prepares 
+                students to become well-rounded individuals and future leaders.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">EXPERIENCE</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">IT SUPPORT</h4>
+
+          
+
+              <p style="text-align: justify;" class="timeline-text">
+               
+                During my On-the-Job Training (OJT) as an IT support intern, I had the opportunity to gain 
+                practical experience in providing technical assistance and resolving IT-related issues. 
+                Working under the guidance of experienced IT professionals, I developed a solid understanding 
+                of hardware and software troubleshooting, network administration, and user support.
+<br>
+<br>
+                In my role, I was responsible for responding to user inquiries, diagnosing and 
+                resolving technical problems, and ensuring the smooth operation of computer systems and 
+                networks. I gained hands-on experience in installing and configuring software and hardware, 
+                performing system maintenance tasks, and monitoring network performance.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">DATA ENTRY</h4>
+
+            
+
+              <p style="text-align: justify;" class="timeline-text">
+                
+                During my OJT experience, I had the opportunity to delve into the realm of data entry, 
+                where I honed my skills in accurately inputting and organizing various types of information. 
+                Working diligently under the guidance of my supervisors, I learned to navigate different data 
+                management systems and became proficient in using software tools and spreadsheets for efficient 
+                data entry tasks.
+                <br>
+                <br>
+                With meticulous attention to detail and a focus on maintaining data integrity, 
+                I ensured the accuracy and completeness of the entered data. Through this experience, I developed a 
+                strong sense of responsibility, as even a small error in data entry could have significant consequences. 
+                I also learned the importance of confidentiality and data security, handling sensitive information with 
+                utmost care and adhering to strict privacy protocols.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">WEB DESIGNER</h4>
+
+              
+
+              <p style="text-align: justify;" class="timeline-text">
+                As a web designer, I am a creative professional who combines technical skills and artistic flair 
+                to design visually stunning and user-friendly websites. With a keen eye for aesthetics and a passion 
+                for delivering exceptional user experiences, I leverage my expertise in HTML, CSS, and design tools 
+                to bring concepts to life. 
+                <br>
+                <br>
+                I carefully craft captivating layouts, select appealing colors and 
+                typography, and ensure intuitive navigation that aligns with the objectives and brand of my clients. 
+                I also prioritize responsiveness, accessibility, and optimization to guarantee optimal performance across 
+                various devices and platforms. As a web designer, my goal is to create digital experiences that leave a 
+                lasting impression and showcase the unique identity and vision of each project I undertake.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">MY COMPETENCY SKILLS</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WEB DESIGN</h5>
+                <data value="80">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">IT SUPPORT</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">PHOTOSHOP</h5>
+                <data value="90">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">PROGRAMMING</h5>
+                <data value="50">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+ <!--
+        - #ojt
+      -->
+
+      <article class="ojt" data-page="ojt">
+
+        <header>
+          <h2 class="h2 article-title">TASK</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="DE.jpg" alt="LEAD PROFILING" loading="lazy">
+                </figure>
+
+                <diV class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Splace</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-02-16">February 16, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">LEAD PROFILING</h3>
+
+                  <p style=" text-align: justify;" class="blog-text">
+                    Lead profiling is the practice of gathering and analyzing data about potential 
+                    customers to understand their characteristics and preferences. It helps businesses 
+                    segment their target audience, personalize marketing efforts, and increase conversion 
+                    rates. 
+                    <br>
+                    <br>
+                    By creating detailed profiles and buyer personas, businesses can deliver 
+                    relevant content and solutions to potential customers, enhancing engagement and satisfaction. 
+                    Lead profiling optimizes lead generation and nurturing processes, ultimately improving overall 
+                    marketing and sales strategies.
+                  </p>
+
+                </diV>
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="ca.jfif" alt="computer assembling" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Splace</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-02-28">February 28, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">COMPUTER ASSEMBLING</h3>
+
+                  <p style=" text-align: justify;"class="blog-text">
+                    During my OJT at Splace, I gained practical experience in computer assembling and disassembling. 
+                    I learned how to build and dismantle computers, including desktops and laptops, while adhering 
+                    to safety protocols. 
+                    <br>
+                    <br>
+                    This hands-on experience enhanced my understanding of computer components, 
+                    their functions, and proper installation techniques. I also developed skills in troubleshooting 
+                    and diagnostic tools. My OJT at Splace provided me with valuable knowledge and skills in computer hardware.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="CM1.jpg" alt="CABLE MANAGEMENT" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Splace</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-03-23">March 20, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">CABLE MANAGEMENT</h3>
+
+                  <p style=" text-align: justify;" class="blog-text">
+                    During my OJT at Splace, I gained experience in cable management. 
+                    This involved organizing and maintaining cables in the workspace, 
+                    ensuring efficiency and safety. 
+
+                    <br>
+                    <br>
+
+                    I worked with the IT team to route, 
+                    ecure, and label cables, creating a tidy and organized environment. 
+                    I learned about different cable types, utilized management tools, 
+                    and followed industry best practices. Cable management is essential for 
+                    maintaining reliable IT infrastructure and minimizing downtime.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            
+            
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="tm2.jpg" alt="MY TEAM" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Splace</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-03-29">March 29, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">MY TEAM</h3>
+
+                  <p style=" text-align: justify;" class="blog-text">
+                    During my OJT at Splace, I had the privilege of working with a talented and diverse team. 
+                    We collaborated closely, fostering a supportive and inclusive environment. 
+                    <br>
+                    <br>
+                    Our strong spirit of
+                    collaboration and teamwork allowed us to deliver exceptional results and overcome challenges together. 
+                    Working with my team at Splace enhanced my technical and interpersonal skills, leaving a lasting impact 
+                    on my professional growth.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            <header>
+              <h2 class="h2 article-title">UNIFORM</h2>
+            </header>
+<br>
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="uni.jpg" alt="our uniform" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Splace</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-03-30">March 30, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">BOYS UNIFORM</h3>
+
+                  <p style="text-align: justify;" class="blog-text">
+                    The OJT uniform at Splace promotes professionalism and unity among all trainees. 
+                    It includes tailored shirts, trousers, and stylish blazers for a cohesive appearance. 
+                    <br>
+                    <br>
+                    Trainees proudly wear a distinctive Splace lapel pin and personalized name tags. 
+                    Polished footwear completes the polished and professional look. Overall, the uniform 
+                    fosters a sense of commitment and excellence during the OJT program at Splace.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="guni.jpg" alt="our uniform" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Splace</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-03-30">March 30, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">GIRLS UNIFORM</h3>
+
+                  <p style="text-align: justify;" class="blog-text">
+                    The OJT uniform at Splace promotes professionalism and unity among all trainees. 
+                    It includes tailored shirts, trousers, and stylish blazers for a cohesive appearance. 
+                    <br>
+                    <br>
+                    Trainees proudly wear a distinctive Splace lapel pin and personalized name tags. 
+                    Polished footwear completes the polished and professional look. Overall, the uniform 
+                    fosters a sense of commitment and excellence during the OJT program at Splace.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <header>
+              <h2 class="h2 article-title">PROGRAM WE USE</h2>
+            </header>
+<br>
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="ml.png" alt="our uniform" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Splace</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-03-30">February 05 - March 30, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">MELISSA.COM</h3>
+
+                  <p style="text-align: justify;" class="blog-text">
+                    
+                    Melissa.com is a comprehensive website that offers a range of data 
+                    quality and identity verification solutions. The site provides 
+                    innovative tools and services designed to help businesses improve the accuracy, 
+                    completeness, and integrity of their customer data. 
+                    <br>
+                    <br>
+                    Whether it's  validating addresses, verifying identities, or ensuring data compliance, 
+                    Melissa.com offers reliable and efficient solutions to enhance data quality. 
+                    With a user-friendly interface and a commitment to data security, 
+                    Melissa.com is a trusted resource for businesses looking to optimize their data 
+                    management processes and make informed decisions based on accurate information.
+                   
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="tt.png" alt="our uniform" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Splace</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-03-30">February 05 - March 30, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">THATSTHEM.COM</h3>
+
+                  <p style="text-align: justify;" class="blog-text">
+                    
+                    
+                    Thatsthem.com is a comprehensive online platform that provides a range 
+                    of people search tools and services. By utilizing a vast database of public records, 
+                    this site allows users to search for individuals and access their contact 
+                    information, including phone numbers, addresses, email addresses, and more. 
+                    <br>
+                    <br>
+                    Whether you're trying to reconnect with old friends, locate family members, 
+                    or verify someone's identity, Thatsthem.com offers an efficient and user-friendly 
+                    interface to find the information you need. With its extensive data coverage and 
+                    intuitive search features, this site serves as a valuable resource for 
+                    individuals seeking accurate and up-to-date personal information.
+                   
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+      </article>
+
+
+
+      <!--
+        - #Pcertificate
+      -->
+
+      <article class="certificates" data-page="certificates">
+
+        <header>
+          <h2 class="h2 article-title">CERTIFICATES</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            
+
+            <li class="filter-item">
+              <button data-filter-btn>HUAWEI</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>NEDA REGION XI</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>SPLACE</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="huawei">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="crt2.jpg" alt="HCIA- AI Course" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">HCIA- AI Course</h3>
+
+                <p class="project-category">Jose Maria College Foundation, Inc.</p>
+
+              </a>
+              </li>
+
+
+            
+            <li class="project-item  active" data-filter-item data-category="huawei">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="crt3.jpg" alt="Programming Python" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Programming Python</h3>
+
+                <p class="project-category">Jose Maria College Foundation, Inc.</p>
+
+              </a>
+              </li>
+            <li class="project-item  active" data-filter-item data-category="huawei">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="crt1.jpg" alt="Math Basics" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Math Basics</h3>
+
+                <p class="project-category">Jose Maria College Foundation, Inc.</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="splace">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="cert.PNG" alt="certificates of completion" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">CERTIFICATES OF COMPLETION</h3>
+
+                <p class="project-category"> 2nd Floor, Sartorio Building, Km. 9 Puan McArthur Highway, Talomo, Davao City, 8000 Davao del Sur.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="neda region xi">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="ND.jpg" alt="neda region ix" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">NEDA REGION XI</h3>
+
+                <p class="project-category"> Kilometer 7 SPED Area, Bangkal, Davao City, 8000 Davao del Sur.</p>
+
+              </a>
+            </li>
+            
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">CONTACT</h2>
+        </header>
+        <section class="mapbox" data-mapbox>
+          <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.5626367102846!2d125.64269800257021!3d7.133308640658128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f9115554d3f877%3A0x519db0f265666f02!2sJose%20Maria%20College%20Foundation%2C%20Inc.!5e0!3m2!1sen!2sph!4v1684385315604!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">CONTACT FORM</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
